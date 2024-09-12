@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gl-user-testing-old"
+version = "0.1.0"
+description = "Green Light User Testing"
+authors = ["ShahanaFarooqui <shahana.farooqui@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gl-client = "^0.1.10"
+bip39 = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
